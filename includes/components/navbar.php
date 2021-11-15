@@ -33,7 +33,7 @@
           <a class="dropdown-item" href="#">Cut</a>
           <a class="dropdown-item" href="#">Paste</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Delete</a>
+          <a class="dropdown-item" href="#">Customize Fields</a>
         </div>
       </li>
 

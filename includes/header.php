@@ -26,7 +26,6 @@
 
     <link href="styles/main.css" rel="stylesheet">
 
-    <link href="styles/font-awesome/css/font-awesome.css" rel="stylesheet">
 
     <title>Arborist App</title>
 </head>

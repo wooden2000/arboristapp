@@ -1,5 +1,9 @@
-$(document).ready( function () {
-    $('#pointTable').dataTable({searching: false, paging: false, info: false});
+$(document).ready(function() {
+    $('#pointTable').DataTable( {
+        paging: false,
+        info: false,
+        "dom": '<"top"i>rt<"bottom"flp><"clear">'
+    } );
 } );
 
 

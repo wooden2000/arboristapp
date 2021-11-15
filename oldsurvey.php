@@ -1,12 +1,11 @@
 <?php include "includes/header.php" ?>
 
-
-
 <div class = "col-sm-12">
     <div class="card">
         <div class="card-body">
-            <h4>Map</h4>
-            <div id="map"></div>
+            <h4><i class="bi bi-info-circle-fill"></i> Details</h4>
+            <p>Started: November 14
+            <br>Weather: Clear, 12-15°</p>
         </div>
     </div>
 </div>
@@ -14,17 +13,27 @@
 <div class = "col-sm-12">
     <div class="card button-card">
         <div class="card-body">
-        <button type="button" class="btn btn-secondary">Duplicate</button>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">New Observation <i class="bi bi-geo-alt-fill"></i></button>
+        <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#exampleModal">New Observation <i class="bi bi-geo-alt-fill"></i></button>
         </div>
     </div>
 </div>
 
 
 <div class = "col-sm-12">
+    <div class="card">
+        <div class="card-body">
+            <h4><i class="bi bi-map-fill"></i> Map</h4>
+            <div id="map"></div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class = "col-sm-12">
     <div class="card point-list">
         <div class="card-body">
-            <h4>Observations</h4>
+            <h4><i class="bi bi-geo-alt-fill"></i> Observations</h4>
             <div class = "table-wrap">        
                 <table id = "pointTable" class="table">
                     <thead>
@@ -258,7 +267,7 @@
         <form class="form-inline">
         <div class="form-group narrow-form">
             <label for="points">Distance to tree:</label>
-            <input type="number" id="points" name="points" step="1">
+            <input type="number" id="points" name="points" step="1"> metres
         </div>
         </form>
 

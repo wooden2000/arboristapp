@@ -5,7 +5,7 @@
     <div class="card">
         <div class="card-body">
             <div class = "icon-large">
-                <i class="bi bi-tree-fill"></i>
+                <i class="bi bi-map-fill"></i>
             </div>
             <br>
             <button type="button" class="btn btn-outline-primary btn-lg btn-block" data-toggle="modal" data-target="#exampleModal">
