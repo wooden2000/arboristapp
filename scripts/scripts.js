@@ -32,3 +32,10 @@ if (navigator.mediaDevices.getUserMedia) {
 // $(window).on('load', function() {
 //     $('#exampleModal2').modal('show');
 // });
+
+var update = document.getElementsByTagName("td");
+for( var i = 0; i < update.length; ++i ) {
+    update[i].onclick = function() { 
+        $("#tableModal").modal('show');
+    }
+}

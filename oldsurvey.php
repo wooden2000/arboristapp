@@ -41,104 +41,104 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td>4</td>
-                        <td>Elm</td>
-                        <td>2.00</td>
-                        <td>5.50</td>
-                        <td>10.00</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td></td>
+                        <td class = "presshold">4</td>
+                        <td class = "presshold">Elm</td>
+                        <td class = "presshold">2.00</td>
+                        <td class = "presshold">5.50</td>
+                        <td class = "presshold">10.00</td>
+                        <td class = "presshold">-</td>
+                        <td class = "presshold">-</td>
+                        <td class = "presshold"></td>
                     </tr>
                     <tr>
-                        <td>2</td>
-                        <td>Birch</td>
-                        <td>3.00</td>
-                        <td>3.50</td>
-                        <td>7.00</td>
-                        <td>flat</td>
-                        <td>null</td>
-                        <td></td>
+                        <td class = "presshold">2</td>
+                        <td class = "presshold">Birch</td>
+                        <td class = "presshold">3.00</td>
+                        <td class = "presshold">3.50</td>
+                        <td class = "presshold">7.00</td>
+                        <td class = "presshold">flat</td>
+                        <td class = "presshold">null</td>
+                        <td class = "presshold"></td>
                     </tr>
                     <tr>
-                        <td>3</td>
-                        <td>Birch</td>
-                        <td>3.00</td>
-                        <td>3.00</td>
-                        <td>7.00</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td></td>
+                        <td class = "presshold">3</td>
+                        <td class = "presshold">Birch</td>
+                        <td class = "presshold">3.00</td>
+                        <td class = "presshold">3.00</td>
+                        <td class = "presshold">7.00</td>
+                        <td class = "presshold">-</td>
+                        <td class = "presshold">-</td>
+                        <td class = "presshold"></td>
                     </tr>
                     <tr>
-                        <td>1</td>
-                        <td>Maple</td>
-                        <td>4.00</td>
-                        <td>5.00</td>
-                        <td>10.00</td>
-                        <td>flat</td>
-                        <td>null</td>
-                        <td></td>
+                        <td class = "presshold">1</td>
+                        <td class = "presshold">Maple</td>
+                        <td class = "presshold">4.00</td>
+                        <td class = "presshold">5.00</td>
+                        <td class = "presshold">10.00</td>
+                        <td class = "presshold">flat</td>
+                        <td class = "presshold">null</td>
+                        <td class = "presshold"></td>
                     </tr>
                     <tr>
-                        <td>10</td>
-                        <td>Birch</td>
-                        <td>10.00</td>
-                        <td>20.00</td>
-                        <td></td>
-                        <td>South</td>
-                        <td>70%</td>
-                        <td></td>
+                        <td class = "presshold">10</td>
+                        <td class = "presshold">Birch</td>
+                        <td class = "presshold">10.00</td>
+                        <td class = "presshold">20.00</td>
+                        <td class = "presshold"></td>
+                        <td class = "presshold">South</td>
+                        <td class = "presshold">70%</td>
+                        <td class = "presshold"></td>
                     </tr>
                     <tr>
-                        <td>6</td>
-                        <td>Cherry</td>
-                        <td>15.00</td>
-                        <td>5.50</td>
-                        <td></td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td></td>
+                        <td class = "presshold">6</td>
+                        <td class = "presshold">Cherry</td>
+                        <td class = "presshold">15.00</td>
+                        <td class = "presshold">5.50</td>
+                        <td class = "presshold"></td>
+                        <td class = "presshold">-</td>
+                        <td class = "presshold">-</td>
+                        <td class = "presshold"></td>
                     </tr>
                     <tr>
-                        <td>7</td>
-                        <td>Cherry</td>
-                        <td>20.00</td>
-                        <td>4.50</td>
-                        <td></td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td></td>
+                        <td class = "presshold">7</td>
+                        <td class = "presshold">Cherry</td>
+                        <td class = "presshold">20.00</td>
+                        <td class = "presshold">4.50</td>
+                        <td class = "presshold"></td>
+                        <td class = "presshold">-</td>
+                        <td class = "presshold">-</td>
+                        <td class = "presshold"></td>
                     </tr>
                     <tr>
-                        <td>9</td>
-                        <td>Cherry</td>
-                        <td>20.00</td>
-                        <td>5.00</td>
-                        <td></td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td></td>
+                        <td class = "presshold">9</td>
+                        <td class = "presshold">Cherry</td>
+                        <td class = "presshold">20.00</td>
+                        <td class = "presshold">5.00</td>
+                        <td class = "presshold"></td>
+                        <td class = "presshold">-</td>
+                        <td class = "presshold">-</td>
+                        <td class = "presshold"></td>
                     </tr>
                     <tr>
-                        <td>5</td>
-                        <td>Cherry</td>
-                        <td>25.00</td>
-                        <td>4.00</td>
-                        <td></td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td></td>
+                        <td class = "presshold">5</td>
+                        <td class = "presshold">Cherry</td>
+                        <td class = "presshold">25.00</td>
+                        <td class = "presshold">4.00</td>
+                        <td class = "presshold"></td>
+                        <td class = "presshold">-</td>
+                        <td class = "presshold">-</td>
+                        <td class = "presshold"></td>
                     </tr>
                     <tr>
-                        <td>8</td>
-                        <td>Cherry</td>
-                        <td>25.00</td>
-                        <td>5.00</td>
-                        <td></td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td></td>
+                        <td class = "presshold">8</td>
+                        <td class = "presshold">Cherry</td>
+                        <td class = "presshold">25.00</td>
+                        <td class = "presshold">5.00</td>
+                        <td class = "presshold"></td>
+                        <td class = "presshold">-</td>
+                        <td class = "presshold">-</td>
+                        <td class = "presshold"></td>
                     </tr>
                     </tbody>
                 </table>
@@ -160,6 +160,7 @@
         </button>
       </div>
       <div class="modal-body">
+      <p>November 1st, 2021, 13:05:10AST</p>
         <form class="form-inline">
             <div class="form-group">
                 <select class="form-control" id="exampleFormControlSelect1">
@@ -254,7 +255,12 @@
       <div class="modal-body">
         Point your camera at the bottom of the tree and click the red button. Then slew your camera to the top of the tree and click the button again.
         <br>
-        <br>
+        <form class="form-inline">
+        <div class="form-group narrow-form">
+            <label for="points">Distance to tree:</label>
+            <input type="number" id="points" name="points" step="1">
+        </div>
+        </form>
 
         <div id = "outer-wrap">
             <video autoplay="true" id="videoElement">
@@ -272,7 +278,7 @@
       <!-- Modal footer -->
       <div class="modal-footer">
         
-        Recorded height: ____m <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+        Calculated height: ____m <button type="button" class="btn btn-success" data-dismiss="modal">Save</button>
       </div>
 
     </div>
@@ -310,6 +316,29 @@
         <button type="button" class="btn btn-success" data-dismiss="modal">Save Picture</button>
       </div>
 
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="tableModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"><i class="bi bi-pencil"></i> Edit Cell</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" id="recipient-name" placeholder="#.##">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Change</button>
+      </div>
     </div>
   </div>
 </div>
