@@ -26,6 +26,9 @@
 </head>
 <body>
 
+<?php include "includes/components/navbar.php" ?>
+
 <div class = "container-sm">
 
-<?php include "includes/components/navbar.php" ?>
+
+<br>
