@@ -17,7 +17,7 @@
             <button type="button" class="btn btn-outline-primary  btn-lg btn-block" data-toggle="modal" data-target="#exampleModal2">
                 Load Survey
             </button>
-            <button type="button" class="btn btn-primary btn-lg btn-block">Resume Latest Survey</button>
+            <a class="btn btn-primary btn-lg btn-block" href= "oldsurvey.php">Resume Latest Survey</a>
         </div>
     </div>
 </div>
@@ -70,7 +70,7 @@
             
             <br>
             <div class="btn-group">
-                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button class="btn btn-outline-dark btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     CRS (WGS84)
                 </button>
                 <div class="dropdown-menu">
@@ -81,7 +81,7 @@
             </div>
 
             <div class="btn-group">
-                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button class="btn btn-outline-dark btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Datum (NAVD)
                 </button>
                 <div class="dropdown-menu">
@@ -99,7 +99,7 @@
 
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Create New Survey</button>
+        <a class="btn btn-primary" href = "newsurvey.php">Create New Survey</a>
       </div>
     </div>
   </div>
@@ -124,7 +124,7 @@
         </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <a href = "oldsurvey.php"><button type="button" class="btn btn-primary" >Load</button></a>
       </div>
     </div>
   </div>
