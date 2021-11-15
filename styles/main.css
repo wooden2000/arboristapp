@@ -1,3 +1,5 @@
+
+
 .navbar-brand{
     font-weight: bolder;
 }
@@ -8,6 +10,10 @@
 }
 
 #map{
+    width: 100%;
+    height: 50vh;
+}
+#map2{
     width: 100%;
     height: 50vh;
 }
@@ -33,6 +39,92 @@ td:hover{
     background-color: rgba(33, 33, 33, 0.096); 
 }
 
+tr:nth-child(even) {background: rgb(194, 194, 194)}
+  
+
 .button-card{
     text-align: right;
 }
+
+.obs-button{
+    margin-bottom: .5em;
+}
+
+#videoElement {
+	width: 100%;
+	background-color: #666;
+}
+#videoElement2 {
+	width: 100%;
+	background-color: #666;
+}
+
+
+.dot-wrapper{
+    text-align: center;
+}
+
+.dot {
+    transition: background-color 0.3s;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: rgb(223, 0, 0);
+    border-width: 10px;
+    border-color: rgb(151, 151, 151);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .dot:hover{
+      background-color: rgb(150, 0, 0);
+  }
+
+  #outer-wrap {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    }
+    
+     
+    
+    #layer-1 {
+    position: absolute;
+    z-index: 1;
+    background-color: #6F0;
+    height: 2px;
+    width: 100%;
+    top: 50%;
+    left: 0px;
+    }
+    
+     
+    
+    #layer-2 {
+    position: absolute;
+    z-index: 2;
+    background-color: #6F0;
+    height: 95%;
+    width: 2px;
+    top: 0px;
+    left: 50%;
+    }
+
+    .navbar{
+        z-index: 100;
+    }
+    
+
+    .leaflet-top, .leaflet-bottom {
+        position: absolute;
+        z-index: 10;
+        pointer-events: none;
+    }
+    
+    .container-sm{
+        margin-top: 3em;
+    }
+
+    #video2{
+        width: 100%;
+    }
