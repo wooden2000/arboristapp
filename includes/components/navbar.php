@@ -14,7 +14,7 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
         
         <a class="dropdown-item" href="#">Open</a>
-        <a class="dropdown-item" href="#">Recently</a>
+        <a class="dropdown-item" href="#">Open Recent</a>
         <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Save</a>
           <a class="dropdown-item" href="#">Save As</a>

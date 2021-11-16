@@ -4,8 +4,10 @@
     <div class="card">
         <div class="card-body">
             <h4><i class="bi bi-info-circle-fill"></i> Details</h4>
-            <p>Started: November 14
-            <br>Weather: Clear, 12-15°</p>
+            <p>Started: November 14</p>
+            <p>Weather: Clear, 12-15°</p>
+
+            
         </div>
     </div>
 </div>
