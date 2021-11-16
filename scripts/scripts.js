@@ -40,14 +40,36 @@ if (navigator.mediaDevices.getUserMedia) {
 var update = document.getElementsByTagName("td");
 for( var i = 0; i < update.length; ++i ) {
     update[i].onclick = function() { 
-        $("#tableModal").modal('show');
+        $("#editCellModal").modal('show');
     }
 }
 
 function openFileModal(){
-  $('#openSurveyModal').modal('show');
+  $('#openSurveyModal').modal('toggle');
 }
+
 
 function newFileModal(){
   $('#newSurveyModal').modal('show');
 }
+
+function newObservationModal(){
+  $('#newObservationModal').modal('show');
+}
+
+function cameraModal(){
+  $('#cameraModal').modal('show');
+}
+
+function clinometerModal(){
+  $('#clinometerModal').modal('show');
+}
+
+function settingsModal(){
+  $('#settingsModal').modal('show');
+}
+
+
+
+
+
