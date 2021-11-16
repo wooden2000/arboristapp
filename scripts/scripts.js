@@ -43,3 +43,11 @@ for( var i = 0; i < update.length; ++i ) {
         $("#tableModal").modal('show');
     }
 }
+
+function openFileModal(){
+  $('#openSurveyModal').modal('show');
+}
+
+function newFileModal(){
+  $('#newSurveyModal').modal('show');
+}

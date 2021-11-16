@@ -1,13 +1,11 @@
 <?php include "includes/header.php" ?>
 
+<div class = "row">
 <div class = "col-sm-12">
     <div class="card">
         <div class="card-body">
-            <h4><i class="bi bi-info-circle-fill"></i> Details</h4>
-            <p>Started: November 14</p>
-            <p>Weather: Clear, 12-15°</p>
-
-            
+            <h4><i class="bi bi-map-fill"></i> Map</h4>
+            <div id="map"></div>
         </div>
     </div>
 </div>
@@ -20,15 +18,6 @@
     </div>
 </div>
 
-
-<div class = "col-sm-12">
-    <div class="card">
-        <div class="card-body">
-            <h4><i class="bi bi-map-fill"></i> Map</h4>
-            <div id="map"></div>
-        </div>
-    </div>
-</div>
 
 
 
@@ -154,6 +143,29 @@
                     </tbody>
                 </table>
             </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class = "col-sm-12">
+    <div class="card">
+        <div class="card-body">
+            <h4><i class="bi bi-info-circle-fill"></i> Details</h4>
+            <p>Started: November 14</p>
+
+            <form>
+              <div class="form-group">
+                <label for="formGroupExampleInput">Atmospheric Pressure</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" value="">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2">Another label</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+              </div>
+            </form>
+
         </div>
     </div>
 </div>
@@ -352,6 +364,7 @@
       </div>
     </div>
   </div>
+</div>
 </div>
 
 <script src="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7/leaflet.js">

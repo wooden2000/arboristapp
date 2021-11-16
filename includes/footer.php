@@ -1,4 +1,5 @@
-<?php ?>
+<?php include "includes/components/modals/surveyfileload.php" ?>
+<?php include "includes/components/modals/surveyfilenew.php" ?>
 
 </body>
 </html>

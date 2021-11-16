@@ -12,8 +12,9 @@
           File
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        
-        <a class="dropdown-item" href="#">Open</a>
+        <a class="dropdown-item" href="#" onclick="newFileModal()">New</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#" onclick="openFileModal()">Open</a>
         <a class="dropdown-item" href="#">Open Recent</a>
         <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Save</a>
@@ -33,7 +34,7 @@
           <a class="dropdown-item" href="#">Cut</a>
           <a class="dropdown-item" href="#">Paste</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Customize Fields</a>
+          <a class="dropdown-item" href="#">Settings</a>
         </div>
       </li>
 
