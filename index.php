@@ -27,7 +27,7 @@
                 <i class="bi bi-gear-fill"></i>
             </div>
             <br>
-            <button type="button" class="btn btn-outline-primary btn-lg btn-block" >
+            <button type="button" class="btn btn-outline-primary btn-lg btn-block" onclick ="settingsModal()" >
                 Settings
             </button>
         </div>
@@ -38,7 +38,7 @@
     <div class="card">
         <div class="card-body">
             <div class = "icon-medium">
-                <i class="bi bi-cloud"></i>
+                <i class="bi bi-cloud-fill"></i>
             </div>
             <br>
             <button type="button" class="btn btn-outline-primary btn-lg btn-block" >

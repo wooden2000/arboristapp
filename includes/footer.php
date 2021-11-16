@@ -1,4 +1,4 @@
-<?php include "includes/components/modals/surveyfileload.php" ?>
+<?php include "includes/components/modals/surveyfileopen.php" ?>
 <?php include "includes/components/modals/surveyfilenew.php" ?>
 <?php include "includes/components/modals/newobservation.php" ?>
 <?php include "includes/components/modals/clinometer.php" ?>

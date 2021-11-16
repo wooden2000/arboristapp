@@ -74,6 +74,12 @@ function editCellModal(){
 }
 
 
+function settingsModal(){
+  $('#settingsModal').modal('toggle');
+}
+
+
+
 
 
 
