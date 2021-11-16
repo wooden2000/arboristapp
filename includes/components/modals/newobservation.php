@@ -5,7 +5,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel"><i class="bi bi-geo-alt-fill"></i>New Observation</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" onclick="newObservationModal()" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -40,12 +40,12 @@
             <div class="input-group mb-3">
                
                <div class="input-group-prepend">
-                   <span class="input-group-text" id="basic-addon1"> <a href ="#" data-toggle="modal" data-target="#exampleModal2"><i class="bi bi-rulers"></i></a></span>
+                   <span class="input-group-text" id="basic-addon1"> <a href ="#" data-toggle="modal" data-target="#exampleModal2"><i class="bi bi-compass"></i></a></span>
                </div>
                <input type="text" class="form-control" placeholder="Aspect" aria-label="Username" aria-describedby="basic-addon1">
 
                <div class="input-group-prepend">
-                   <span class="input-group-text" id="basic-addon1"> <a href ="#" data-toggle="modal" data-target="#exampleModal2"><i class="bi bi-rulers"></i></a></span>
+                   <span class="input-group-text" id="basic-addon1"> <a href ="#" data-toggle="modal" data-target="#exampleModal2"><i class="bi bi-map"></i></a></span>
                </div>
                <input type="text" class="form-control" placeholder="Slope" aria-label="Username" aria-describedby="basic-addon1">
 
@@ -78,7 +78,7 @@
 
             </div>
         </form>
-        <button type="button" class="btn btn-outline-primary  btn-lg btn-block" data-toggle="modal" data-target="#exampleModal3">
+        <button type="button" class="btn btn-outline-primary  btn-lg btn-block" onclick="cameraModal()">
             <i class="bi bi-camera"></i> Photograph
             </button>
       </div>

@@ -5,7 +5,7 @@
       <!-- Modal Header -->
       <div class="modal-header">
         <h4 class="modal-title">Camera</h4>
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <button type="button" class="close" onclick="cameraModal()">&times;</button>
       </div>
 
       <!-- Modal body -->
@@ -13,6 +13,13 @@
         <div id = "outer-wrap">
             <video autoplay="true" id="videoElement2">
             </video>
+            
+            <div id = "layer-3">
+              <div class = "dot-wrapper">
+                <div class = "dot"></div>
+              </div>
+            </div>
+
         </div>
       </div>
 

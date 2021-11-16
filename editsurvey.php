@@ -23,18 +23,13 @@
     <div class="card">
         <div class="card-body">
             <h4><i class="bi bi-info-circle-fill"></i> Details</h4>
-            <p>Started: November 14</p>
+            <p>November 1st, 2021, 11:00:10AST</p>
 
             <form>
 
               <div class="form-group">
-                <label for="formGroupExampleInput">Atmospheric Pressure</label>
-                <input type="text" class="form-control" id="formGroupExampleInput" value="">
-              </div>
-
-              <div class="form-group">
-                <label for="formGroupExampleInput2">Another label</label>
-                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+                <label for="formGroupExampleInput2">Field Notes</label>
+                <textarea class="form-control" id="formGroupExampleInput2" rows="3" placeholder="Atmospheric pressure: 1013.2mbar&#13Instrument number: A967G1"></textarea>
               </div>
 
             </form>

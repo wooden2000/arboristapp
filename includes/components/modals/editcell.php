@@ -3,7 +3,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLabel"><i class="bi bi-pencil"></i> Edit Cell</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <button type="button" class="close" aria-label="Close" onclick="editCellModal()">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>

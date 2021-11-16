@@ -50,23 +50,27 @@ function openFileModal(){
 
 
 function newFileModal(){
-  $('#newSurveyModal').modal('show');
+  $('#newSurveyModal').modal('toggle');
 }
 
 function newObservationModal(){
-  $('#newObservationModal').modal('show');
+  $('#newObservationModal').modal('toggle');
 }
 
 function cameraModal(){
-  $('#cameraModal').modal('show');
+  $('#cameraModal').modal('toggle');
 }
 
 function clinometerModal(){
-  $('#clinometerModal').modal('show');
+  $('#clinometerModal').modal('toggle');
 }
 
 function settingsModal(){
-  $('#settingsModal').modal('show');
+  $('#settingsModal').modal('toggle');
+}
+
+function editCellModal(){
+  $('#editCellModal').modal('toggle');
 }
 
 
