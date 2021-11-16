@@ -15,7 +15,7 @@
         <a class="dropdown-item" href="#" onclick="newFileModal()">New</a>
         <div class="dropdown-divider"></div>
         <a class="dropdown-item" href="#" onclick="openFileModal()">Open</a>
-        <a class="dropdown-item" href="#">Open Recent</a>
+        <a class="dropdown-item" href="#" onclick="openFileModal()">Open Recent</a>
         <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Save</a>
           <a class="dropdown-item" href="#">Save As</a>
