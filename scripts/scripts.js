@@ -5,9 +5,10 @@ $(document).ready(function() {
         "dom": '<"top"i>rt<"bottom"flp><"clear">'
     } );
 
-    $('#openFileModal').modal('toggle');
-} );
+    // $('#newUserModal').modal('toggle');
 
+    
+} );
 
 
 var video = document.querySelector("#videoElement");
@@ -35,9 +36,7 @@ if (navigator.mediaDevices.getUserMedia) {
     });
 }
 
-// $(window).on('load', function() {
-//     $('#exampleModal2').modal('show');
-// });
+
 
 var update = document.getElementsByTagName("td");
 for( var i = 0; i < update.length; ++i ) {
@@ -84,6 +83,17 @@ function settingsModal(){
 function cloudModal(){
   $('#cloudModal').modal('toggle');
 }
+
+function newUserModal(){
+  $('#newUserModal').modal('toggle');
+}
+
+if(newUser == 1){
+  $('#newUserModal').modal('show');
+}
+
+newUser = 0;
+
 
 
 
