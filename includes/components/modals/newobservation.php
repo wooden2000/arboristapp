@@ -10,6 +10,22 @@
         </button>
       </div>
       <div class="modal-body">
+      <div id="map2"></div>   
+      <form>
+            <div class="input-group mb-3">
+                
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1"> <a href ="#">Lat.</a></span>
+                </div>
+                <input type="text" class="form-control" placeholder="0.0000" aria-label="Username" aria-describedby="basic-addon1">
+
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1"> <a href ="#" data-toggle="modal" data-target="#exampleModal2">Long.</a></span>
+                </div>
+                <input type="text" class="form-control" placeholder="0.0000" aria-label="Username" aria-describedby="basic-addon1">
+
+            </div>
+        </form>
       <p>November 1st, 2021, 13:05:10AST</p>
         <form class="form-inline">
             <div class="form-group">
@@ -22,6 +38,7 @@
                 <option>Birch</option>
                 </select>
             </div>
+            
 
             <div class="input-group mb-3">
                
@@ -60,26 +77,9 @@
 
 
         </form>
-        
-        <div id="map2"></div>
 
-        <form>
-            <div class="input-group mb-3">
-                
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="basic-addon1"> <a href ="#">Lat.</a></span>
-                </div>
-                <input type="text" class="form-control" placeholder="0.0000" aria-label="Username" aria-describedby="basic-addon1">
-
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="basic-addon1"> <a href ="#" data-toggle="modal" data-target="#exampleModal2">Long.</a></span>
-                </div>
-                <input type="text" class="form-control" placeholder="0.0000" aria-label="Username" aria-describedby="basic-addon1">
-
-            </div>
-        </form>
         <button type="button" class="btn btn-outline-primary  btn-lg btn-block" onclick="cameraModal()">
-            <i class="bi bi-camera"></i> Photograph
+            Photograph <i class="bi bi-camera"></i> 
             </button>
       </div>
 

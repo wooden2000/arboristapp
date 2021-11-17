@@ -4,6 +4,8 @@ $(document).ready(function() {
         info: false,
         "dom": '<"top"i>rt<"bottom"flp><"clear">'
     } );
+
+    $('#openFileModal').modal('toggle');
 } );
 
 

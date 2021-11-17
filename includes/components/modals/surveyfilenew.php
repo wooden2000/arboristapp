@@ -4,7 +4,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">New Tree Survey</h5>
+        <h5 class="modal-title" id="exampleModalLabel"><i class="bi bi-file-earmark-plus"></i> New Tree Survey</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -13,7 +13,8 @@
         <div class="input-group mb-3">
             <div class="custom-file">
                 <input type="file" class="custom-file-input" id="inputGroupFile02">
-                <label class="custom-file-label" for="inputGroupFile02">File Path</label>
+                <label class="custom-file-label" for="inputGroupFile02"><i class="bi bi-folder2-open"></i>
+File Path</label>
             </div>
         </div>
 

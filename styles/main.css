@@ -160,3 +160,17 @@ tr:nth-child(even) {background: rgb(194, 194, 194)}
 .modal-footer h5{
     margin-right: auto !important;
 }
+
+.file-box{
+    display: inline-block;
+    text-align: center;
+    padding: .5em;
+}
+
+.file-box i{
+    font-size: 4em;
+}
+
+.file-box:hover{
+    background-color: rgb(190, 190, 190);
+}
