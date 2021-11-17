@@ -24,19 +24,27 @@
         <h6>Open Recent</h6>
           
         <div class = "card file-box">
-          <i class="bi bi-file-earmark"></i>
-          <p>survey.csv</p>
+          <a href = "editsurvey.php">
+            <i class="bi bi-file-earmark"></i>
+            <p>survey.csv</p>
+          </a>
         </div>
 
         <div class = "card file-box">
-          <i class="bi bi-file-earmark"></i>
-          <p>survey.csv</p>
+          <a href = "editsurvey.php">
+            <i class="bi bi-file-earmark"></i>
+            <p>survey.csv</p>
+          </a>
         </div>
 
         <div class = "card file-box">
-          <i class="bi bi-file-earmark"></i>
-          <p>survey.csv</p>
+          <a href = "editsurvey.php">
+            <i class="bi bi-file-earmark"></i>
+            <p>survey.csv</p>
+          </a>
         </div>
+
+
 
       </div>
       <div class="modal-footer">

@@ -7,24 +7,30 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search: Files, Settings, People, Etc." aria-label="">
       </form>
       
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="cloudModal()">
+          Cloud
+        </a>
+      </li>
+
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           File
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item" href="#" onclick="newFileModal()">New</a>
+        <a class="dropdown-item" href="#" onclick="newFileModal()">New Survey</a>
         <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#" onclick="openFileModal()">Open</a>
-        <a class="dropdown-item" href="#" onclick="openFileModal()">Open Recent</a>
+        <a class="dropdown-item" href="#" onclick="openFileModal()">Open Survey</a>
+        <a class="dropdown-item" href="#" onclick="openFileModal()">Open Recent Survey</a>
         <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Save</a>
-          <a class="dropdown-item" href="#">Save As</a>
+          <a class="dropdown-item" href="#">Save Survey</a>
+          <a class="dropdown-item" href="#">Save Survey As</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Import</a>
-          <a class="dropdown-item" href="#">Export</a>
+          <a class="dropdown-item" href="#">Import Survey</a>
+          <a class="dropdown-item" href="#">Export Survey</a>
         </div>
       </li>
 
@@ -50,6 +56,8 @@
           <a class="dropdown-item" href="#">Close Window</a>
         </div>
       </li>
+
+
 
     </ul>
   </div>

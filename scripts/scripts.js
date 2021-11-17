@@ -81,6 +81,12 @@ function settingsModal(){
 }
 
 
+function cloudModal(){
+  $('#cloudModal').modal('toggle');
+}
+
+
+
 
 
 

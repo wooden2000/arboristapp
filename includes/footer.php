@@ -5,6 +5,7 @@
 <?php include "includes/components/modals/camera.php" ?>
 <?php include "includes/components/modals/editcell.php" ?>
 <?php include "includes/components/modals/settings.php" ?>
+<?php include "includes/components/modals/cloud.php" ?>
 
 </body>
 </html>

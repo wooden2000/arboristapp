@@ -88,7 +88,7 @@
 
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary">Change</button>
+          <button type="button" class="btn btn-primary"  onclick="settingsModal()">Change</button>
         </div>
       </div>
     </div>

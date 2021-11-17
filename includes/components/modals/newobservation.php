@@ -10,7 +10,7 @@
         </button>
       </div>
       <div class="modal-body">
-      <div id="map2"></div>   
+      <p>November 1st, 2021, 13:05:10AST</p>
       <form>
             <div class="input-group mb-3">
                 
@@ -26,7 +26,11 @@
 
             </div>
         </form>
-      <p>November 1st, 2021, 13:05:10AST</p>
+
+        <div id="map2"></div>
+        
+        <br>   
+
         <form class="form-inline">
             <div class="form-group">
                 <select class="form-control" id="exampleFormControlSelect1">
@@ -35,7 +39,7 @@
                 <option>Birch</option>
                 <option>Elder</option>
                 <option>Oak</option>
-                <option>Birch</option>
+                <option>Elm</option>
                 </select>
             </div>
             
@@ -54,21 +58,6 @@
 
             </div>
 
-            <div class="input-group mb-3">
-               
-               <div class="input-group-prepend">
-                   <span class="input-group-text" id="basic-addon1"> <a href ="#" data-toggle="modal" data-target="#exampleModal2"><i class="bi bi-compass"></i></a></span>
-               </div>
-               <input type="text" class="form-control" placeholder="Aspect" aria-label="Username" aria-describedby="basic-addon1">
-
-               <div class="input-group-prepend">
-                   <span class="input-group-text" id="basic-addon1"> <a href ="#" data-toggle="modal" data-target="#exampleModal2"><i class="bi bi-map"></i></a></span>
-               </div>
-               <input type="text" class="form-control" placeholder="Slope" aria-label="Username" aria-describedby="basic-addon1">
-
-           </div>
-
-
             <label class="sr-only" for="inlineFormInputName2">Damage Condition</label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Damage Condition">
 
@@ -84,14 +73,14 @@
       </div>
 
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary " data-dismiss="modal">Add Observation</button>
+        <button type="button" class="btn btn-primary " data-dismiss="modal" onclick="newObservationModal()">Add Observation</button>
       </div>
     </div>
   </div>
 </div>
 <script>
 
-var map2 = L.map('map2').setView([44.668651, -63.570444], 18);
+var map2 = L.map('map2').setView([44.6369077, -63.59041448], 18);
 mapLink2 = 
     '<a href="http://openstreetmap.org">OpenStreetMap</a>';
 L.tileLayer(
@@ -100,7 +89,7 @@ L.tileLayer(
     maxZoom: 18,
     }).addTo(map2);
 
-    var marker = L.marker([44.668651, -63.570444]).addTo(map2); 
+    var marker = L.marker([44.6369077, -63.59041]).addTo(map2); 
 
 // Comment out the below code to see the difference.
 $('#newObservationModal').on('shown.bs.modal', function() {

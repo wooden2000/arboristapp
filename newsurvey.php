@@ -29,7 +29,7 @@
 
               <div class="form-group">
                 <label for="formGroupExampleInput2">Field Notes</label>
-                <textarea class="form-control" id="formGroupExampleInput2" rows="3" placeholder="Atmospheric pressure: 1013.2mbar&#13Instrument number: A967G1"></textarea>
+                <textarea class="form-control" id="formGroupExampleInput2" rows="3" ></textarea>
               </div>
 
             </form>
@@ -72,7 +72,7 @@
 
 <script>
 
-var map = L.map('map').setView([44.668349, -63.571144], 18);
+var map = L.map('map').setView([44.63670208, -63.5909371], 18);
 mapLink = 
     '<a href="http://openstreetmap.org">OpenStreetMap</a>';
 L.tileLayer(

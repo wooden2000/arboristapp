@@ -41,7 +41,7 @@
                 <i class="bi bi-cloud-fill"></i>
             </div>
             <br>
-            <button type="button" class="btn btn-outline-primary btn-lg btn-block" >
+            <button type="button" class="btn btn-outline-primary btn-lg btn-block" onclick ="cloudModal()">
                 Cloud
             </button>
         </div>

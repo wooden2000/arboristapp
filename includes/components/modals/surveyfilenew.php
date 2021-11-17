@@ -10,6 +10,7 @@
         </button>
       </div>
       <div class="modal-body">
+
         <div class="input-group mb-3">
             <div class="custom-file">
                 <input type="file" class="custom-file-input" id="inputGroupFile02">
@@ -43,9 +44,11 @@ File Path</label>
                 </label>
             </div>
             
-            <br>
+            <hr>
+            <h6>Coordinate System</h6>
+
             <div class="btn-group">
-                <button class="btn btn-outline-dark btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button class="btn btn-outline-dark btn-sm dropdown-toggle menu-dropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     CRS (WGS84)
                 </button>
                 <div class="dropdown-menu">
@@ -63,6 +66,22 @@ File Path</label>
                 <a class="dropdown-item" href="#">CGVD</a>
                 <a class="dropdown-item" href="#">NAVD</a>
                 </div>
+            </div>
+
+            <p></p>
+            <hr>
+            <h6>Save to:</h6>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Device
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Cloud
+              </label>
             </div>
             
         </div>
