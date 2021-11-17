@@ -50,8 +50,13 @@
 
 </div>
 
+<script>
+    var newUser = 1;
+</script>
+
+
 <!-- Button trigger modal -->
 
-
-
 <?php include "includes/footer.php" ?>
+
+

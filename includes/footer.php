@@ -6,6 +6,7 @@
 <?php include "includes/components/modals/editcell.php" ?>
 <?php include "includes/components/modals/settings.php" ?>
 <?php include "includes/components/modals/cloud.php" ?>
+<?php include "includes/components/modals/newuser.php" ?>
 
 </body>
 </html>
