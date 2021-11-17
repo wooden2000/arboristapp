@@ -8,13 +8,13 @@
                 <i class="bi bi-map-fill"></i>
             </div>
             <br>
-            <button type="button" class="btn btn-outline-primary btn-lg btn-block" data-toggle="modal" data-target="#newSurveyModal">
+            <a class="btn btn-primary btn-lg btn-block"  href= "newsurvey.php">
                 New Survey
-            </button>
+            </a>
             <button type="button" class="btn btn-outline-primary  btn-lg btn-block" onclick="openFileModal()">
                 Open Survey
             </button>
-            <a class="btn btn-primary btn-lg btn-block" href= "editsurvey.php">Resume Latest Survey</a>
+            <a class="btn btn-outline-primary btn-lg btn-block" href= "editsurvey.php">Resume Latest Survey</a>
         </div>
     </div>
 </div>

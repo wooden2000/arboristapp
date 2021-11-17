@@ -27,7 +27,7 @@
         <a class="dropdown-item" href="#" onclick="openFileModal()">Open Recent Survey</a>
         <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Save Survey</a>
-          <a class="dropdown-item" href="#">Save Survey As</a>
+          <a class="dropdown-item" href="#"  onclick="newFileModal()">Save Survey As</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Import Survey</a>
           <a class="dropdown-item" href="#">Export Survey</a>
