@@ -11,18 +11,42 @@
       </div>
       <div class="modal-body">
       <p>November 1st, 2021, 13:05:10AST</p>
+
+      
+      <p>Click the button to get your coordinates.</p>
+
+      <button onclick="getLocation()">Try It</button>
+
+      <p id="demo"></p>
+
+      <script>
+      var x = document.getElementById("demo");
+
+      function getLocation() {
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(showPosition);
+        } else { 
+          console.log("Geolocation is not supported by this browser.");
+        }
+      }
+
+      function showPosition(position) {
+        document.getElementById("latitude").placeholder = position.coords.latitude;
+        document.getElementById("longitude").placeholder = position.coords.longitude;
+      }
+      </script>
+
       <form>
             <div class="input-group mb-3">
-                
                 <div class="input-group-prepend">
                     <span class="input-group-text" id="basic-addon1"> <a href ="#">Lat.</a></span>
                 </div>
-                <input type="text" class="form-control" placeholder="0.0000" aria-label="Username" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" id = "latitude" placeholder="0.0000" aria-label="Username" aria-describedby="basic-addon1">
 
                 <div class="input-group-prepend">
                     <span class="input-group-text" id="basic-addon1"> <a href ="#" data-toggle="modal" data-target="#exampleModal2">Long.</a></span>
                 </div>
-                <input type="text" class="form-control" placeholder="0.0000" aria-label="Username" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" id = "longitude" placeholder="0.0000" aria-label="Username" aria-describedby="basic-addon1">
 
             </div>
         </form>
