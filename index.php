@@ -60,3 +60,6 @@
 <?php include "includes/footer.php" ?>
 
 
+<script type="text/javascript">
+    $('#newUserModal').modal('toggle');
+</script>

@@ -161,15 +161,26 @@ tr:nth-child(even) {background: rgb(194, 194, 194)}
     margin-right: auto !important;
 }
 
+.file-wrap{
+    width: 100%;
+    height: 100%;
+}
+
 .file-box{
-    width: 32%;
+    width: 32% ;
+    height: 100%;
     display: inline-block;
+    vertical-align: top;
     text-align: center;
     padding: .5em;
 }
 
+.file-box p{
+    font-size: 1em;
+}
+
 .file-box i{
-    font-size: 4em;
+    font-size: 2em;
 }
 
 .file-box:hover{

@@ -22,9 +22,10 @@
     <link rel="stylesheet" href="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7/leaflet.css" />
 
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
-
     <link href="styles/main.css" rel="stylesheet">
+
+    <!-- Leaflet Maps: -->
+    <script src="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7/leaflet.js"></script>
 
 
     <title>Arborist App</title>
