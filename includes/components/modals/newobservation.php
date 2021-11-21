@@ -33,7 +33,7 @@
         </form>
 
         <p>
-          <button type="button" id= "mapCenterButton" class="btn btn-outline-primary  btn-lg btn-block" onclick="getMapCenter(); this.blur()">
+          <button type="button" id= "mapCenterButton" class="btn btn-outline-primary  btn-lg btn-block" onclick="markMapCenter(); this.blur()">
               New Marker<i class="bi bi-geo-alt-fill"></i> 
           </button>
         </p>
@@ -91,6 +91,7 @@
 </div>
 <script>
 
+    
 function getLocation() {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(showPosition);
@@ -98,7 +99,6 @@ function getLocation() {
     alert("Unable to determine position");
   }
 }
-
 
 var map2 = L.map('map2').setView([44.6369077, -63.59041448], 18);
 mapLink2 = 
@@ -122,10 +122,10 @@ function showPosition(position) {
   document.getElementById("latitude").placeholder = position.coords.latitude;
   document.getElementById("longitude").placeholder = position.coords.longitude;
 
-  map2.panTo(new L.LatLng(position.coords.latitude,  position.coords.longitude))
+  map2.panTo(new L.LatLng(position.coords.latitude,  position.coords.longitude));
 }
 
-function getMapCenter(){
+function markMapCenter(){
   var curLat = map2.getBounds().getCenter().lat;
   var curLng  = map2.getBounds().getCenter().lng;
   document.getElementById("latitude").placeholder = map2.getBounds().getCenter().lat;

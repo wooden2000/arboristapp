@@ -194,3 +194,13 @@ tr:nth-child(even) {background: rgb(194, 194, 194)}
 .file-box a{
     color: black;
 }
+
+.custom-div-icon {
+    margin: 12px auto;
+    font-size: 17px;
+ }
+
+ .side-by-side{
+     display: inline-block;
+     width: 50%;
+ }
