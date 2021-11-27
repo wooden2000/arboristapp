@@ -13,7 +13,7 @@
         <div id = "outer-wrap">
             <video autoplay="true" id="videoElement2">
             </video>
-            
+
             <div id = "layer-3">
               <div class = "dot-wrapper">
                 <div class = "dot"></div>
@@ -26,7 +26,7 @@
       <!-- Modal footer -->
       <div class="modal-footer">
         
-        <button type="button" class="btn btn-success" data-dismiss="modal">Save Picture</button>
+        <button type="button" class="btn btn-success" onclick= "cameraModal()">Save Picture</button>
       </div>
 
     </div>

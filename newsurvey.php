@@ -10,7 +10,7 @@
             <p></p>
 
             <button type="button" class="btn btn-outline-primary" onclick="getLocation()">
-                My Position <i class="bi bi-compass"></i> 
+                My Position <i class="bi bi-person-circle"></i> 
             </button>
 
             <button type="button" id= "mapCenterButton" class="btn btn-primary" onclick="newObservationModal()">
@@ -26,19 +26,26 @@
         <div class="card-body">
             <h4><i class="bi bi-geo-alt-fill"></i> Observations</h4>
             <div class = "table-wrap">        
-                <table id = "pointTable" class="table">
+                <table id = "treePointTable" class="table">
                     <thead>
                     <tr>
-                        <th>ID</th>
                         <th>Species</th>
                         <th>Diam.</th>
                         <th>Height</th>
                         <th>Damage</th>
                         <th>Notes</th>
+                        <th>Position</th>
+                        <th>ID</th>
+                        <th>Lat</th>
+                        <th>Lng</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
+                        <td class = "presshold"> </td>
+                        <td class = "presshold"> </td>
+                        <td class = "presshold"> </td>
+                        <td class = "presshold"> </td>
                         <td class = "presshold"> </td>
                         <td class = "presshold"> </td>
                         <td class = "presshold"> </td>
@@ -94,12 +101,18 @@
         <h6>Classification</h6>
             <form class="form-inline ">
                 <div class="form-group side-by-side">
-                    <input class="form-control" type="text" list="treeSpecies" placeholder="Species" id = "treeSpecies"/>
+                    <input class="form-control" type="text" list="treeSpecies" id="treeSpeciesList" placeholder="Species" />
                         <datalist id="treeSpecies">
-                        <option>Maple</option>
+                        <option>Ash</option>
+                        <option>Beech</option>
+                        <option>Birch</option>
                         <option>Cedar</option>
+                        <option>Cherry</option>
                         <option>Elm</option>
+                        <option>Maple</option>
+                        <option>Oak</option>
                         <option>Pine</option>
+                        <option>Tamarack</option>
                         </datalist>
                 </div>
 
@@ -111,21 +124,21 @@
                 </div>
 
                 <label class="sr-only" for="damageCondition">Damage Condition</label>
-                <input type="text" class="form-control mb-2 mr-sm-2" id = "damageCondition" placeholder="Damage Condition">
+                <input type="text" class="form-control mb-2 mr-sm-2" id = "damageTree" placeholder="Damage Condition">
 
                 <label class="sr-only" for="notesTree">Notes</label>
                 <input type="textarea" class="form-control mb-2 mr-sm-2" id="notesTree" placeholder="Notes">
 
                 <div class="input-group ">
                     <div class="input-group-prepend">
-                        <span class="input-group-text" id="heightTree"> <a href ="#" onclick="clinometerModal()"><i class="bi bi-rulers"></i></a></span>
+                        <span class="input-group-text" id="heightTreeLabel"> <a href ="#" onclick="clinometerModal()"><i class="bi bi-rulers"></i></a></span>
                     </div>
-                    <input type="text" class="form-control" placeholder="Height" aria-label="Tree Height" aria-describedby="heightTree">
+                    <input type="number" class="form-control" placeholder="Height" id="heightTree" aria-label="Tree Height" aria-describedby="heightTreeLabel">
 
                     <div class="input-group-prepend">
-                        <span class="input-group-text" id="diameterTree"> <a href ="#" onclick="clinometerModal()"><i class="bi bi-rulers"></i></a></span>
+                        <span class="input-group-text" id="diameterTreeLabel"> <a href ="#" onclick="clinometerModal()"><i class="bi bi-rulers"></i></a></span>
                     </div>
-                    <input type="text" class="form-control" placeholder="Diameter" aria-label="Tree Diameter" aria-describedby="diameterTree">
+                    <input type="number" class="form-control" placeholder="Diameter" aria-label="Tree Diameter" id="diameterTree" aria-describedby="diameterTreeLabel">
                 
                 </div>
             </form>
@@ -152,7 +165,7 @@
         <p></p>
     
         <button type="button" class="btn btn-outline-primary" onclick="getLocation()">
-                My Position <i class="bi bi-compass"></i> 
+                My Position <i class="bi bi-person-circle"></i> 
         </button>
 
         <button type="button" id= "mapCenterButton" class="btn btn-outline-primary" onclick="markMapCenter()">
@@ -189,6 +202,7 @@ function getLocation() {
 }
 
 var positionCount = 0;
+var observationCount = 0;
 
 
 function showPosition(position) {
@@ -200,29 +214,63 @@ function showPosition(position) {
 
     var personIcon = L.icon({
     iconUrl: 'icons/standingperson.png',
-    iconSize:     [50, 50], // size of the icon
-    iconAnchor:   [25, 50], // point of the icon which will correspond to marker's location
+    iconSize:     [20, 20], // size of the icon
+    iconAnchor:   [10, 10], // point of the icon which will correspond to marker's location
     zIndexOffset: -100,
-});
+    });
+
+
+    var personIcon2 = L.icon({
+    iconUrl: 'icons/standingperson.png',
+    iconSize:     [20, 20], // size of the icon
+    iconAnchor:   [10, 10], // point of the icon which will correspond to marker's location
+    zIndexOffset: -100,
+    });
+
+
     personIcon = new L.marker(map.getCenter(), {icon: personIcon, clickable:true});
     personIcon.addTo(map);
+
+    personIcon2 = new L.marker(map2.getCenter(), {icon: personIcon2, clickable:true});
+    personIcon2.addTo(map2);
     positionCount++;
   
 }
 
 
 function markMapCenter(){
-  var curLat = map2.getBounds().getCenter().lat;
-  var curLng  = map2.getBounds().getCenter().lng;
-  document.getElementById("latitude").placeholder = map2.getBounds().getCenter().lat;
-  document.getElementById("longitude").placeholder = map2.getBounds().getCenter().lng;
+    observationCount++;
+    var curLat = map2.getBounds().getCenter().lat;
+    var curLng  = map2.getBounds().getCenter().lng;
+    document.getElementById("latitude").placeholder = map2.getBounds().getCenter().lat;
+    document.getElementById("longitude").placeholder = map2.getBounds().getCenter().lng;
 
-  document.getElementById("mapCenterButton").blur();
+    document.getElementById("mapCenterButton").blur();
 
-  L.marker([curLat, curLng]).addTo(map2);
-  L.marker([curLat, curLng]).addTo(map); 
-  
-  console.log(positionCount);
+    L.marker([curLat, curLng]).addTo(map2);
+    L.marker([curLat, curLng]).addTo(map); 
+
+
+
+    var species = document.getElementById('treeSpeciesList').value;
+    var diameter = document.getElementById('diameterTree').value;
+    var height = document.getElementById('heightTree').value;
+    var damage = document.getElementById('damageTree').value;
+    var notes = document.getElementById('notesTree').value;
+    
+    console.log(species);
+ 
+    var table = $('#treePointTable').DataTable();
+    var rowNode = table
+        .row.add( [ species, diameter, height, damage, notes, positionCount, observationCount,curLat, curLng ] )
+        .draw()
+        .node();
+
+        table.row( ':eq(0)' ).delete( {
+            title: 'Delete first row'
+        } );     
+    
+    console.log(positionCount);
 }
 
 
@@ -277,6 +325,47 @@ map2.on('move', function(e) {
 
 
 
+
+function htmlToCSV(html, filename) {
+	var data = [];
+	var rows = document.querySelectorAll("table tr");
+			
+	for (var i = 0; i < rows.length; i++) {
+		var row = [], cols = rows[i].querySelectorAll("td, th");
+				
+		for (var j = 0; j < cols.length; j++) {
+		        row.push(cols[j].innerText);
+        }
+		        
+		data.push(row.join(",")); 		
+	}
+
+	downloadCSVFile(data.join("\n"), filename);
+}
+
+
+function downloadCSVFile(csv, filename) {
+	var csv_file, download_link;
+
+	csv_file = new Blob([csv], {type: "text/csv"});
+
+	download_link = document.createElement("a");
+
+	download_link.download = filename;
+
+	download_link.href = window.URL.createObjectURL(csv_file);
+
+	download_link.style.display = "none";
+
+	document.body.appendChild(download_link);
+
+	download_link.click();
+}   
+
+document.getElementById("download-button").addEventListener("click", function () {
+	var html = document.querySelector("table").outerHTML;
+	htmlToCSV(html, "surveyfile.csv");
+});
 
 </script>
 
