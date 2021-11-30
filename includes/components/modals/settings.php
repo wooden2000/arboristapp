@@ -88,7 +88,7 @@
 
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary"  onclick="settingsModal()">Change</button>
+            <h4>Settings Saved!</h4>
         </div>
       </div>
     </div>
