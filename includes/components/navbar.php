@@ -1,7 +1,8 @@
-<div class = "heuristic-message"></div>
-
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light navbar-fixed-top">
-  <a class="navbar-brand" href="index.php">Arborist</a>
+<div class = "heuristic-message"><i class="bi bi-exclamation-diamond-fill" onclick = "heuristicMessage('This is heuristic issue #1')"></i>
+<div id ="heuristic-text">Click on the alert icons to see the annotated heuristic problems</div>
+</div>  
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+<a class="navbar-brand" href="index.php">Arborist</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

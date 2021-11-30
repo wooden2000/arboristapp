@@ -154,7 +154,7 @@ tr:nth-child(even) {background: rgb(194, 194, 194)}
 }
 
 .container-sm{
-    margin-top: 3em;
+
 }
 
 #video2{
@@ -234,7 +234,14 @@ tr:nth-child(even) {background: rgb(194, 194, 194)}
  }
 
  .heuristic-message{
-     height: 2em;
-     background-color: red;
+     height: 4em;
+     background-color: rgb(255, 92, 92);
      width: 100%;
+
+     margin-bottom: 1em;
+ }
+
+ .heuristic-message i{
+    color: white;
+    font-size: 2em;
  }

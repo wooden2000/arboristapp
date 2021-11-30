@@ -66,6 +66,11 @@ function newUserModal(){
 
 
 
+function heuristicMessage(messageText){
+  
+}
+
+
 
 
 
