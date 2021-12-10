@@ -53,16 +53,12 @@
         </div>
       </li>
       <li class="nav-item dropdown">
-      <a class="nav-link" href="..\..\index.php" id="navbarDropdown" role="button" data-toggle="dropdown"aria-expanded="false" ">
-          
-      
+        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="signupModal()">
           Sign Up
         </a>
       </li>
       <li class="nav-item dropdown">
-      <a class="nav-link" href="..\..\index.php" id="navbarDropdown" role="button" data-toggle="dropdown"aria-expanded="false" ">
-          
-      
+        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="signinModal()">
           Sign In
         </a>
       </li>

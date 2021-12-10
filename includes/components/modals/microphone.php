@@ -8,11 +8,36 @@
           </button>
         </div>
         <div class="modal-body">
-          <form>
-            <div class="form-group">
-              <input type="text" class="form-control" id="recipient-name" placeholder="#.##">
+        <div class = "col-6">
+          <div class="card">
+           <div class="card-body">
+            <div class = "icon-medium">
+                <i class="bi bi-gear-fill"></i>
             </div>
-          </form>
+            <br>
+            <button type="button" class="btn btn-outline-primary btn-lg btn-block" onclick ="settingsModal()" >
+                New Survey
+            </button>
+            </div>
+        </div>
+          </div>
+        <div class = "col-6">
+          <div class="card">
+        
+          <div class="card-body">
+        
+            <div class = "icon-medium">
+                <i class="bi bi-cloud-fill"></i>
+            </div>
+            
+            <br>
+            <button type="button" class="btn btn-outline-primary btn-lg btn-block" onclick ="cloudModal()">
+                New Observation
+            </button>
+              </div>
+          </div>
+        </div>
+        </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-primary">Change</button>
