@@ -79,7 +79,7 @@
     </div>
 </div>
 
-
+confirm exampleInputPassword1keep in line with what zolboo said
 
 <!-- Modal -->
 <div class="modal fade" id="newObservationModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

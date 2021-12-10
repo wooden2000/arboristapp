@@ -8,19 +8,16 @@
           </button>
         </div>
         <div class="modal-body">
-
         <h6><i class="bi bi-person-circle"></i> Getting Started</h6>
             <p>Welcome to Arborist, the tree surveying companion. We welcome you to explore the application and make an account with Arborist Cloud. 
             <div class = "card file-box">
                 <i class="bi bi-person-plus"></i>
                 <p>Account</p>
             </div>
-
             <div class = "card file-box">
             <i class="bi bi-question-circle"></i>
                 <p>FAQ</p>
             </div>
-
             <div class = "card file-box">
                 <i class="bi bi-journal"></i>
                 <p>Guides</p>
@@ -61,29 +58,31 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-
         <br>
             <h6><i class="bi bi-globe"></i> Arborist Community</h6>
-
             <div class = "card file-box">
                 <i class="bi bi-people"></i>
                 <p>About Us</p>
             </div>
-
             <div class = "card file-box">
                 <i class="bi bi-newspaper"></i>
                 <p>Blog</p>
             </div>
-
             <div class = "card file-box">
             <i class="bi bi-chat-left-text"></i>
                 <p>Forum</p>
             </div>
-
+            <hr>
+            <h6><i class=""></i> Show at startup?</h6>
+            <div class="do-not-show-again">
+                <input type="checkbox" value="" id="defaultCheck3">
+                <label for="defaultCheck2">
+                    Do not show again
+                </label>
+            </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-primary" data-dismiss="modal" data-backdrop="false" >Try Out Arborist</button>
             </div>
-
         </div>
       </div>
     </div>

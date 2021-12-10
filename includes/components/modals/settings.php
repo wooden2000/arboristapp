@@ -27,7 +27,6 @@
             </form>
             <hr>
             <h6>Instrument Settings</h6>
-
             <form>
                 <div class="form-group">
                     <div class="form-check form-switch">
@@ -40,8 +39,6 @@
                     </div>
                 </div>
             </form>
-
-
             <hr>
             <h6>File Settings</h6>
             <form>
@@ -53,9 +50,7 @@
             </div>
         </div>
                 </div>
-
             Default File Format:
-
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                 <label class="form-check-label" for="flexRadioDefault1">
@@ -68,7 +63,6 @@
                     .xls
                 </label>
             </div>
-
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
                 <label class="form-check-label" for="flexRadioDefault3">
@@ -76,7 +70,6 @@
                 </label>
             </div>
             </form>
-
             <hr>
             <h6>Cloud Settings</h6>
             <div class="form-check">
@@ -85,10 +78,17 @@
                     Save observations to cloud
                 </label>
             </div>
-
+            <hr>
+            <h6>New User</h6>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" checked>
+                <label class="form-check-label" for="defaultCheck2">
+                    Show new user page at startup
+                </label>
+            </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary"  onclick="settingsModal()">Change</button>
+          <button type="button" class="btn btn-primary"  onclick="settingsModal()">Save</button>
         </div>
       </div>
     </div>

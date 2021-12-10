@@ -13,34 +13,28 @@
                 <i class="bi bi-people"></i>
                 <p>My Team</p>
             </div>
-
             <div class = "card file-box">
                 <i class="bi bi-person-fill"></i>
                 <p>My Profile</p>
             </div>
-
             <div class = "card file-box">
             <i class="bi bi-list-stars"></i>
                 <p>My Feed</p>
             </div>
-
             <hr>
             <h6><i class="bi bi-globe"></i> Arborist Community</h6>
             <div class = "card file-box">
             <i class="bi bi-chat-left-text"></i>
                 <p>Discussions</p>
             </div>
-
             <div class = "card file-box">
                 <i class="bi bi-newspaper"></i>
                 <p>News</p>
             </div>
-
             <div class = "card file-box">
                 <i class="bi bi-question-circle"></i>
                 <p>Support</p>
             </div>
-
             <hr>
             <h6><i class="bi bi-file-earmark"></i> Cloud Survey Files</h6>
             <div class = "card file-box">
@@ -56,7 +50,6 @@
                 <p>Halifax</p>
                 </a>
             </div>
-
             <div class = "card file-box">
             <a href = "editsurvey.php">
                 <i class="bi bi-file-earmark"></i>
